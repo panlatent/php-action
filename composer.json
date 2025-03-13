@@ -1,0 +1,21 @@
+{
+    "name": "panlatent/action",
+    "description": "PHP action interface",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Panlatent\\Action\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "panlatent",
+            "email": "panlatent@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0"
+    }
+}
